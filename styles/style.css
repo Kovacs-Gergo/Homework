@@ -1,0 +1,157 @@
+body{
+  background-color: #494b49;
+}
+p{
+  color: rgb(77, 207, 26);
+}
+h1{
+  color: rgb(255, 0, 0);
+}
+::selection{
+  background-color: rgb(255, 0, 0);
+}
+.livesearch{
+  color: brown;
+}
+.livesearch:hover{
+  background-color: gray;
+  text-decoration: none;
+  border-radius: 8px;
+}
+li:hover{
+  background-color: rgb(36, 219, 97);
+  border-radius: 8px;
+}
+li.active{
+  background-color: rgb(88, 155, 182);
+  border-radius: 8px;
+}
+a:hover{
+  color:green;
+}
+textarea{
+  resize: none;
+  width: 100%;
+  height: 50px;
+}
+div.poster{
+  float: left;
+  padding: 12px 10px;
+}
+div.title{
+  position: relative;
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(20, 119, 206);
+  height: 70px;
+  border-left: 3px solid #017e5f;
+  border-bottom: 3px solid #017e5f;
+  border-right: 3px solid #017e5f;
+  background-color: darkgrey;
+  transform: translateY(-7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  left: 10px;
+  top: -6px;
+}
+.phases{
+  float: left;
+  padding: 10px 45px;
+}
+h1.ph{
+ color: rgb(255, 0, 0);
+ opacity: 50%;
+}
+.gallery{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: red; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: crimson; 
+}
+td{
+  color: rgb(223, 221, 220);
+}
+.bg{
+  background-color: rgb(0, 0, 0);
+}
+.flip {
+  width: 200px;
+  height: 296px;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip:hover .inner {
+  transform: rotateY(180deg);
+}
+.poster, .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.back {
+  position: absolute;
+  top: 4%;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+  border: 1px solid black;
+  left: -5%;
+  background-color: rgb(22, 22, 22);
+  overflow: auto;
+}
+.mestext{
+  height: 100px;
+  width: 100%;
+}
+#mes{
+  color: rgb(255, 167, 5);
+  vertical-align: top;
+}
+.mesname{
+  color: red;
+}
+.cast{
+  margin-top: 5px;
+  position: relative;
+  text-align: left;
+}
+.cast h5{
+  color: #b9c508;
+  margin-top: 10px;
+}
+.cast ul{
+  position: relative;
+  left: -40px;
+  margin-top: 10px;
+  width: 225px;
+}
+.cast ul li{
+  list-style-type: none;
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+.cast ul li img{
+  max-width: 100%;
+}
